@@ -15,3 +15,52 @@ dist/
 
 # Undo-tree save-files
 *.~undo-tree
+
+# Package management - elpa packages are downloaded automatically
+elpa/
+
+# Native compilation cache - rebuilt automatically
+eln-cache/
+
+# Auto-save and backup files
+auto-save-list/
+*~
+.#*
+\#*\#
+*.elc
+
+# LSP and DAP session data
+.lsp-session-v1
+.dap-breakpoints
+
+# Projectile bookmarks - often machine-specific
+projectile-bookmarks.eld
+
+# Session files - temporary runtime data
+session.*
+
+# Transient state - magit and other transient UIs
+transient/
+
+# Extensions cache
+.extension/
+
+# Other common Emacs generated files
+recentf
+places
+.last-package-update-day
+image-dired/
+url/
+eshell/
+tramp
+bookmarks
+.mc-lists.el
+.smex-items
+network-security.data
+
+# Temporary files
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
